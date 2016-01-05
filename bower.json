@@ -1,0 +1,21 @@
+{
+  "name": "VVFT",
+  "homepage": "https://github.com/jmtcsngr/VVFT",
+  "authors": [
+    "jmtcsngr <jmtc@sanger.ac.uk>"
+  ],
+  "description": "test_bower_package",
+  "main": "README.rst",
+  "moduleType": [],
+  "keywords": [
+    "empty"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
