@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - "6"
   - "iojs"
-cache
+cache:
   directories:
     - cache
-script
+script:
   - date -u > cache/cache_date.txt
   - cat cache/cache_date.txt
