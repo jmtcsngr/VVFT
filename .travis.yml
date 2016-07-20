@@ -5,5 +5,5 @@ cache:
   directories:
     - cache
 script:
-  - if [ ! -d cache/cache_date.txt ]; do date -u > cache/cache_date.txt; done;
+  - if [ ! -d cache/cache_date.txt ]; then date -u > cache/cache_date.txt; fi;
   - cat cache/cache_date.txt
