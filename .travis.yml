@@ -5,5 +5,5 @@ cache:
   directories:
     - cache
 script:
-  - if [ ! -d cache/cache_date.txt ]; then echo "Will generate file"; date -u > cache/cache_date.txt; fi;
+  - if [ ! -e cache/cache_date.txt ]; then echo "Will generate file"; date -u > cache/cache_date.txt; fi;
   - cat cache/cache_date.txt
