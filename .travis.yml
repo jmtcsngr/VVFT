@@ -1,3 +1,4 @@
+sudo: required
 language: node_js
 node_js:
   - "6"
@@ -7,3 +8,4 @@ cache:
 script:
   - if [ ! -e cache/cache_date.txt ]; then echo "Will generate file"; date -u > cache/cache_date.txt; fi;
   - cat cache/cache_date.txt
+  - sudo apt-get update
