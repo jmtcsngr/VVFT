@@ -19,3 +19,7 @@ env:
 
 install:
  - ./.travis/install.sh
+before_script:
+ - ./.travis/before_script.sh
+script:
+ - ls
